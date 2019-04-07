@@ -165,3 +165,10 @@ Por ejemplo mis camaras utilizan:
 
 # FAQ
 **Importante: No usar el dns 1.1.1.1 de cloudflare en Pi-Hole y PiVPN, en su defecto usar 1.0.0.1. Algunos proveedores de internet usaban esa dirección para gestiones internas y es posible que tu router lo utilize como loopback.**
+
+- **Por que no usar otra Raspberry pi en vez del router de Teltonika?** El usb 4G para una raspberry consume bastante, habria que usar un hub usb con alimentación. Personalmente tenia problemas y a veces el hub se quedaba desconectado (tengo el sistema montado con unas baterias y placas solares).
+- **Y un HAT 4G?** Hice algunas pruebas con la Waveshare SIM7600E-H 4G HAT y era una pesadilla la configuración. Conseguí internet en 2G, nada útil.
+
+# WIP
+- Añadir modulos ZIGBEE conectados a una Raspberry Pi con lan al router remoto.
+- Almacenar video en un disco duro
